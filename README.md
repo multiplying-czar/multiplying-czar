@@ -1,3 +1,5 @@
+![Profile Views](https://komarev.com/ghpvc/?username=czar&color=blue)
+
 ## 👋 Hi, I’m Czar
 
 I like to introduce myself through **five “I”s**:
