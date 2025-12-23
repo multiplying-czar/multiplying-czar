@@ -1,8 +1,8 @@
-name: Generate labeled contribution snake (GIF)
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # daily
   workflow_dispatch:
 
 permissions:
@@ -12,50 +12,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake GIF (grid-only)
+      - name: Generate snake files
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.gif
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif
 
-      - name: Install tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget imagemagick librsvg2-bin
-
-      - name: Download labeled chart (SVG)
-        run: |
-          mkdir -p dist
-          wget -O dist/labeled.svg "https://ghchart.rshah.org/${{ github.repository_owner }}"
-
-      - name: Overlay labeled chart behind each snake frame
-        run: |
-          mkdir -p dist/frames
-
-          # explode snake.gif into frames
-          convert dist/snake.gif -coalesce dist/frames/frame_%04d.png
-
-          # match background size to frames
-          first="dist/frames/frame_0000.png"
-          w=$(identify -format "%w" "$first")
-          h=$(identify -format "%h" "$first")
-
-          # convert labeled.svg -> labeled.png at exact size (reliable)
-          rsvg-convert dist/labeled.svg -w "$w" -h "$h" -o dist/labeled.png
-
-          # composite: background first, then frame on top
-          for f in dist/frames/frame_*.png; do
-            convert dist/labeled.png "$f" -compose over -composite "$f"
-          done
-
-          # rebuild and optimize GIF
-          convert -delay 6 -loop 0 dist/frames/frame_*.png -layers Optimize dist/contributions-snake-labeled.gif
-
-      - name: Publish to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
