@@ -1,11 +1,48 @@
-Hi, My Name is Czar. There are five "I" which could best introduce myself.
+## 👋 Hi, I’m Czar
 
-I have rich research experiences in both Experimental and Theoretical Chemistry.
+I like to introduce myself through **five “I”s**:
 
-I hold an undergraduate degree from UC San Diego and I graduate summa cum laude (4.0/4.0 GPA) with a major in Chemistry and being double minors in Mathematics and General Biology.
+---
 
-I am currently a first year graduate student at Pricneton studying Theoretical & Computational Chemistry and Experimental Biophysics.
+### 🔬 I explore
+I have rich research experience in **both Experimental and Theoretical Chemistry**, with a strong focus on bridging physical intuition, mathematical structure, and computation.
 
-I have a broad interests in research including Applied Mathematics, Electronic Strucutre, Molecular Simuation, Statistical Mechanics and Material Science.
+---
 
-I love art and sports. Beside academics endeavor, I also dabbled my foot in music composition, poetry, and e-paintings. You could view my work at soundcloud and other art medium. The more detailed information will be shown later.
+### 🎓 I studied
+- **B.S. in Chemistry**, *summa cum laude* (**GPA: 4.0/4.0**)  
+- **University of California, San Diego**  
+- Double minors in **Mathematics** and **General Biology**
+
+---
+
+### 🧪 I research
+I am currently a **first-year Ph.D. student at Princeton University**, studying  
+**Theoretical & Computational Chemistry** and **Experimental Biophysics**.
+
+My research interests include:
+- Applied Mathematics  
+- Electronic Structure Theory  
+- Molecular Simulation  
+- Statistical Mechanics  
+- Materials Science  
+
+---
+
+### 🎨 I create
+Beyond academics, I enjoy creative work in:
+- 🎵 Music composition  
+- ✍️ Poetry  
+- 🎨 Digital painting  
+
+Selected works are available on **SoundCloud** and other creative platforms  
+(*links coming soon*).
+
+---
+
+### ⚽ I move
+I love sports and staying active—it keeps my thinking sharp and balanced.
+
+---
+
+> *Science sharpens my thinking; art keeps it human.*
