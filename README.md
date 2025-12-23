@@ -6,6 +6,8 @@
 
 I like to introduce myself through **five “I”s**:
 
+---
+
 ## 🔬 I explore
 I have rich research experience in **both Experimental and Theoretical Chemistry**, with a strong focus on connecting physical intuition, mathematical structure, and computation.
 
@@ -37,8 +39,16 @@ Selected work:
 ## ⚽ I move
 I love sports and staying active—it helps me stay disciplined, focused, and balanced.
 
-## Contributions
-<img src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/contributions-snake-labeled.gif" alt="Labeled contribution snake" />
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github contribution grid snake animation"
+       src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
