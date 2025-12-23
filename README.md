@@ -6,8 +6,6 @@
 
 I like to introduce myself through **five “I”s**:
 
----
-
 ## 🔬 I explore
 I have rich research experience in **both Experimental and Theoretical Chemistry**, with a strong focus on connecting physical intuition, mathematical structure, and computation.
 
@@ -38,10 +36,6 @@ Selected work:
 
 ## ⚽ I move
 I love sports and staying active—it helps me stay disciplined, focused, and balanced.
-
----
-
-## 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
