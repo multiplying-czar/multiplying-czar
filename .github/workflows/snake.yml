@@ -1,8 +1,8 @@
-name: Generate Snake
+name: Generate labeled contribution snake (GIF)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,17 +11,51 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Generate snake files
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake GIF (grid-only)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            dist/snake.gif
 
-      - name: Push to output branch
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick wget
+
+      # Labeled chart (months/day labels) from ghchart (static PNG)
+      - name: Download labeled chart image (PNG)
+        run: |
+          wget -O dist/labeled.png "https://ghchart.rshah.org/${{ github.repository_owner }}"
+
+      # Compose labeled background + snake frames into one animated GIF
+      - name: Overlay labeled chart behind each snake frame
+        run: |
+          mkdir -p dist/frames
+          # explode snake.gif into frames
+          convert dist/snake.gif -coalesce dist/frames/frame_%04d.png
+
+          # Resize labeled background to match frame size, then composite each frame over it
+          first_frame="dist/frames/frame_0000.png"
+          w=$(identify -format "%w" "$first_frame")
+          h=$(identify -format "%h" "$first_frame")
+
+          convert dist/labeled.png -resize "${w}x${h}!" dist/labeled_resized.png
+
+          for f in dist/frames/frame_*.png; do
+            # Put background first, then overlay snake frame on top
+            convert dist/labeled_resized.png "$f" -gravity center -compose over -composite "$f"
+          done
+
+          # Rebuild animated GIF (keep timing)
+          convert -delay 6 -loop 0 dist/frames/frame_*.png dist/contributions-snake-labeled.gif
+
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
