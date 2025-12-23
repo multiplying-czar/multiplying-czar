@@ -41,3 +41,6 @@ Selected works are available on **SoundCloud** and other creative platforms
 I love sports and staying active—it keeps my thinking sharp and balanced.
 
 > *Science sharpens my thinking; art keeps it human.*
+
+
+![Contribution Snake](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.svg)
