@@ -37,12 +37,15 @@ Selected work:
 ## ⚽ I move
 I love sports and staying active—it helps me stay disciplined, focused, and balanced.
 
+## 🐍 Contribution Snake
 <picture>
   <source media="(prefers-color-scheme: dark)"
           srcset="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake-dark.svg" />
   <img alt="github contribution grid snake animation"
        src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake.svg" />
 </picture>
+
+[View the full contributions calendar on GitHub](https://github.com/multiplying-czar)
 
 ---
 
