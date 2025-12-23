@@ -7,3 +7,5 @@ I hold an undergraduate degree from UC San Diego and I graduate summa cum laude 
 I am currently a first year graduate student at Pricneton studying Theoretical & Computational Chemistry and Experimental Biophysics.
 
 I have a broad interests in research including Applied Mathematics, Electronic Strucutre, Molecular Simuation, Statistical Mechanics and Material Science.
+
+I love art and sports. Beside academics endeavor, I also dabbled my foot music composition, poetry, and e-paintings. You could check out my work at soundcloud and other art medium. 
