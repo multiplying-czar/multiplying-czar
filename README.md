@@ -1,3 +1,7 @@
-AT&T provides dogshit service 
+Hi, My Name is Czar.
 
-And I hate talking to white people with accent from the east. They seem arrogant, fuck them!
+I am currently a first year graduate student at Pricneton studying theoretical and computational chemistry.
+
+I have a broad interests when it comes to research and I have rich experiences in both experimental and theoretical chemistry.
+
+I hold an undergraduate degree from UC San Diego and I graduate summa cum laude (4.0/4.0 GPA) with a major in Chemistry and double minors in Mathematics and General Biology.
