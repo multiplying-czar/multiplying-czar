@@ -8,4 +8,4 @@ I am currently a first year graduate student at Pricneton studying Theoretical &
 
 I have a broad interests in research including Applied Mathematics, Electronic Strucutre, Molecular Simuation, Statistical Mechanics and Material Science.
 
-I love art and sports. Beside academics endeavor, I also dabbled my foot music composition, poetry, and e-paintings. You could check out my work at soundcloud and other art medium. 
+I love art and sports. Beside academics endeavor, I also dabbled my foot in music composition, poetry, and e-paintings. You could view my work at soundcloud and other art medium. The more detailed information will be shown later.
