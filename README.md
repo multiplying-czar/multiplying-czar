@@ -39,14 +39,18 @@ I love sports and staying active—it helps me stay disciplined, focused, and ba
 
 ## Contributions
 
-<!-- Labeled contribution calendar (static image) -->
-<img src="https://ghchart.rshah.org/multiplying-czar" alt="GitHub contribution chart" />
+<!-- Labeled static chart -->
+<img
+  src="https://ghchart.rshah.org/multiplying-czar"
+  alt="GitHub contribution chart (labeled)"
+  width="100%"
+/>
 
-<!-- Snake animation (grid-only, animated) -->
+<!-- Snake animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)"
           srcset="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="github contribution grid snake animation"
+  <img alt="github contribution snake"
        src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake.svg" />
 </picture>
 
