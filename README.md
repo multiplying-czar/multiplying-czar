@@ -1,6 +1,5 @@
-<!-- ====== HEADER / BADGES ====== -->
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=multiplying-czar&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 # Hi, I’m Czar
@@ -33,7 +32,7 @@ Beyond academics, I enjoy:
 - ✍️ Poetry  
 - 🎨 Digital / e-painting  
 
-Selected work:  
+Selected work:
 - SoundCloud: (add link)  
 - Other art platforms: (add links)
 
@@ -42,19 +41,17 @@ I love sports and staying active—it helps me stay disciplined, focused, and ba
 
 ---
 
-<!-- ====== SNAKE (CONTRIBUTION ANIMATION) ====== -->
 ## 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" />
+          srcset="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake-dark.svg" />
   <img alt="github contribution grid snake animation"
-       src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" />
+       src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake.svg" />
 </picture>
 
 ---
 
-<!-- ====== OPTIONAL: QUICK LINKS (EDIT / REMOVE) ====== -->
 ## 🔗 Links
 - Website: (add link)
 - Google Scholar: (add link)
