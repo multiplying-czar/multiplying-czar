@@ -38,21 +38,7 @@ Selected work:
 I love sports and staying active—it helps me stay disciplined, focused, and balanced.
 
 ## Contributions
-
-<!-- Labeled static chart -->
-<img
-  src="https://ghchart.rshah.org/multiplying-czar"
-  alt="GitHub contribution chart (labeled)"
-  width="100%"
-/>
-
-<!-- Snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="github contribution snake"
-       src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/github-contribution-grid-snake.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/multiplying-czar/multiplying-czar/output/contributions-snake-labeled.gif" alt="Labeled contribution snake" />
 
 ---
 
