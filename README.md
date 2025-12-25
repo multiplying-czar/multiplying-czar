@@ -9,12 +9,12 @@ I like to introduce myself through **five “I”s**:
 ---
 
 ## 🔬 I explore
-I have rich research experience in **both Experimental and Theoretical Chemistry**, with a strong focus on connecting physical intuition, mathematical structure, and computation.
+I have research experience in **both Experimental and Theoretical Chemistry**, with a strong focus on connecting physical intuition, mathematical structure, and computation.
 
 ## 🎓 I studied
 - **B.S. in Chemistry**, *summa cum laude* (**GPA: 4.0/4.0**)  
-- **University of California, San Diego (UCSD)**  
-- Double minors in **Mathematics** and **General Biology**
+- At **University of California, San Diego (UCSD)**  
+- With double minors in **Mathematics** and **General Biology**
 
 ## 🧪 I research
 I am currently a **first-year graduate student at Princeton University**, studying **Theoretical & Computational Chemistry** and **Experimental Biophysics**.
@@ -33,8 +33,8 @@ Beyond academics, I enjoy:
 - 🎨 Digital / e-painting  
 
 Selected work:
-- SoundCloud: (add link)  
-- Other art platforms: (add links)
+- SoundCloud: (link in the future)  
+- Other art platforms: (link in the future)
 
 ## ⚽ I move
 I love sports and staying active—it helps me stay disciplined, focused, and balanced.
@@ -53,7 +53,7 @@ I love sports and staying active—it helps me stay disciplined, focused, and ba
 ---
 
 ## 🔗 Links
-- Website: (add link)
-- Google Scholar: (add link)
-- CV: (add link)
-- SoundCloud: (add link)
+- Website: (link in the future)
+- Google Scholar: (link in the future)
+- CV: (link in the future)
+- SoundCloud: (link in the future)
